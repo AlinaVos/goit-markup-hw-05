@@ -525,6 +525,8 @@ width: 100%;
 .page-footer-text {
     color: #f4f4fd;
     width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* footer subsc */
 
@@ -726,7 +728,8 @@ border: none;
 
 }
 
-.modal-input-icon {   
+.modal-input-icon {  
+    fill: #2e2f42;; 
     position: absolute;    
     top: 50%;
     left: 16px;
@@ -779,7 +782,6 @@ border: none;
 }
 .checkbox-label {
 position: relative;
-    padding-left: 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
